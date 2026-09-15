@@ -1,0 +1,10 @@
+# READ — Relaxed Entropy-regularized Alignment for Dating
+# 与论文第 5.3 节、附录 B.1 的环境一致。开发与自检所用的实际版本：
+#   python 3.9.13 / torch 2.6.0 / torchvision 0.21.0 / transformers 4.57.6
+#   numpy 2.0.2 / pillow 11.2.1
+
+torch>=2.0
+torchvision>=0.15
+transformers>=4.30
+numpy>=1.23
+Pillow>=9.0

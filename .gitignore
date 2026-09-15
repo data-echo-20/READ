@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 打包 / 环境
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# 训练产物
+checkpoints/
+runs/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# 数据集（可重新生成的放这里）
+data/*
+!data/.gitkeep
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
